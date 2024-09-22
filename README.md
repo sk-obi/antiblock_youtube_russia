@@ -10,4 +10,14 @@
 3. VDS за границей на Debian 11
 
 
+Установка OpenWRT на роутер:
 
+Нам потребуется тачка на Linux в домашней сети 
+
+1. Скачать https://github.com/acecilia/OpenWRTInvasion
+2. Перейти в скачанную директорию и выполнить установку
+# pip3 install -r requirements.txt
+3. Запустить скрипт
+# python3 remote_command_execution_vulnerability.py
+Спросит ip роутера и его сток 
+![image](https://github.com/user-attachments/assets/f7eceb0f-ed8e-4eab-9b5f-a0d897368a0e)
